@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
-        System.out.println((int) service.calculate(1.87, 98));
+        double metrs=1.87;
+        double kilograms=98;
+        System.out.println((int) service.calculate(metrs,kilograms));
 
     }
 }
